@@ -1,4 +1,10 @@
 from random import randint
+
+def reverse_matrix(matrix):
+     reversed_matrix = [x[::-1] for x in matrix]
+     reversed_matrix.reverse()
+     return reversed_matrix
+
 n = int(input("Podaj rozmiar macierzy: "))
 a = int(input("Podaj początkowy zakres macierzy: "))
 b = int(input("Podaj końcowy zakres macierzy: "))
@@ -9,8 +15,8 @@ sum_of_first_diagonal = 0
 for i in range(n):
     sum_of_first_diagonal += matrix[i][i]
 
-for wiersz in matrix:
-    for el_kol in wiersz:
+for row in matrix:
+    for el_kol in row:
         print(el_kol, end=" ")
     print()
 
@@ -34,3 +40,9 @@ for i in range(n):
                     sum_of_odd_positions += matrix[i][y]
 
 print("Suma elementów na pozycjach nieparzystych wynosi: ", sum_of_odd_positions)
+
+reversed_matrix = reverse_matrix(matrix)
+for row in reversed_matrix:
+    for el_kol in row:
+        print(el_kol, end=" ")
+    print()

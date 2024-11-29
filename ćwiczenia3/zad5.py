@@ -22,7 +22,8 @@ def number_to_string(n):
 
     def three_digits(liczba):
         wynik = []
-        if liczba >= 100: wynik.append(setki[liczba // 100])
+        if liczba >= 100:
+            wynik.append(setki[liczba // 100])
         liczba %= 100
         if 10 <= liczba <= 19:
             wynik.append(dziesiatki[liczba])

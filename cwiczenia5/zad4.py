@@ -9,4 +9,3 @@ def strpos(text: str, z: str) -> int:
 
 print(strpos("Ala ma kota", "a"))  # Oczekiwany wynik: 1
 print(strpos("Ala ma kota", "z"))  # Oczekiwany wynik: -1
-       

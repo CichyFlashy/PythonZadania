@@ -1,0 +1,14 @@
+jutro: 2
+egzamin: 2
+ala: 1
+ma: 1
+z: 1
+biologii: 1
+jan: 1
+myje: 1
+auto: 1
+eh: 1
+kolejny: 1
+nie: 1
+lubie: 1
+polityki: 1

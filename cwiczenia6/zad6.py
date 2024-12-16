@@ -1,5 +1,5 @@
 def analiza_czestosci(nazwaPliku):
-    nazwaWy = "czestosc_" + nazwaPliku  
+    nazwaWy = "czestosc_" + nazwaPliku
     slownik_czestosci = {}
     plikWe = open(nazwaPliku, 'r')
     for linia in plikWe:

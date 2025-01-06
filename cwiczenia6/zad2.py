@@ -1,6 +1,5 @@
 import re
 
-
 def emails_in_txt(input_file:str):
     pattern_of_email = r'\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b'
     list_of_emails = []
